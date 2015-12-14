@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"     
+    android:layout_width="wrap_content"     
+    android:layout_height="wrap_content"     
+    android:orientation="vertical">      
+    
+    <TextView        
+        android:text="@string/what_to_do_with_ringtone"        
+        android:textColor="#ffffffff"        
+        android:textSize="14sp"        
+        android:layout_width="wrap_content"         
+        android:layout_height="wrap_content"        
+        android:layout_margin="10sp" />      
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="vertical" >
+        
+ <!-- ** make default 기능 버튼 삭제        
+     <Button android:id="@+id/button_make_default"          
+         android:text="@string/make_default_ringtone_button"          
+         android:layout_width="wrap_content"          
+         android:layout_height="wrap_content" />        
+ --> 
+ 
+ <!-- ** 자동 버튼 생성 --> 
+
+ 	<Button
+ 	    android:id="@+id/button_auto_vibrate"
+ 	    android:layout_width="131dp"
+ 	    android:layout_height="wrap_content"
+ 	    android:text="@string/auto_vibrate_ringtone_button" />
+
+ <!-- ** contact 기능 버튼 삭제        
+     <Button android:id="@+id/button_choose_contact"          
+         android:text="@string/choose_contact_ringtone_button"          
+         android:layout_width="wrap_content"           
+         android:layout_height="wrap_content" />        
+ -->
+ 
+ <!-- 수동 버튼 생성 -->
+	<Button
+ 	    android:id="@+id/button_manual_vibrate"
+ 	    android:text="@string/manual_vibrate_ringtone_button" 
+ 	     android:layout_width="wrap_content"           
+         android:layout_height="wrap_content"/>
+	
+	<Button android:id="@+id/button_do_nothing"          
+            android:text="@string/do_nothing_with_ringtone_button"          
+            android:layout_width="fill_parent"           
+            android:layout_height="wrap_content"          
+            android:layout_marginLeft="15sp"          
+            android:layout_marginTop="20sp"          
+            android:layout_marginRight="15sp"          
+            android:layout_marginBottom="15sp" />
+         
+      </LinearLayout>  
+      
+ </LinearLayout> 

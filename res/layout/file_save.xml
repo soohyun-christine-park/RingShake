@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Type 기능 없애기 -->
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="300sp"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="10dip"
+     android:layout_marginRight="10dip"
+     android:orientation="vertical" >
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="15dip"
+         android:text="@string/ringtone_type_label"
+         android:textColor="#ffffffff"
+         android:textSize="12sp" />
+
+     <Spinner
+         android:id="@+id/ringtone_type"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dip" />    
+<!-- Spinner 제거
+         android:id="@+id/ringtone_type"
+         android:layout_width="280sp"
+         android:layout_height="40sp"
+         android:layout_marginLeft="10dip"
+      />  -->
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="15dip"
+         android:text="@string/ringtone_name_label"
+         android:textColor="#ffffffff"
+         android:textSize="12sp" />
+
+ <!--  ** 이름변경 기능 제거  <EditText -->  
+
+ 	 <TextView
+ 	     android:id="@+id/filename"
+ 	     android:layout_width="280sp"
+ 	     android:layout_height="40sp"
+ 	     android:layout_marginLeft="10dip" />
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dip"
+         android:layout_marginTop="5dip"
+         android:gravity="center_horizontal" >
+
+         <Button
+             android:id="@+id/save"
+             android:layout_width="100sp"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dip"
+             android:text="@string/file_save_button_save" />
+
+         <Button
+             android:id="@+id/cancel"
+             android:layout_width="100sp"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="10dip"
+             android:text="@string/file_save_button_cancel" />
+     </LinearLayout>
+
+ </LinearLayout> 

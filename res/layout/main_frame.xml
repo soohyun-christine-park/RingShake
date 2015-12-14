@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_image"
+    android:baselineAligned="true"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <!-- ** mainImage  :: RingShake -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96"
+        android:src="@drawable/ringdroidlogo" />
+
+    <Button
+        android:id="@+id/main_frame_btn_vibe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/make_main_vibe_button" />
+
+    <Button
+        android:id="@+id/main_frame_btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/make_main_ringtone_button" />
+
+</LinearLayout> 
+ 
